@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:id="@+id/text"
+    android:gravity="center"
+    android:lines="1"
+    android:singleLine="true"
+    android:maxLines="1"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:textColor="@color/colorPrimaryDark"
+    android:text="ছাত্রীকে যৌন হয়রানি: চাকরি হারাচ্ছেন ঢাবি শিক্ষক"
+    android:textSize="16sp">
+
+</TextView>

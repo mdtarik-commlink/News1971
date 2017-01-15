@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/nav_primary_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="হোম" />
+
+        <item android:title="বিষয়বস্তু">
+            <menu>
+                <group
+                    android:id="@+id/nav_category_group"
+                    android:checkableBehavior="single">
+                </group>
+            </menu>
+        </item>
+
+
+    </group>
+
+    <item android:title="যোগাযোগ">
+        <menu>
+            <group
+                android:id="@+id/contact"
+                android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_address"
+                    android:title="ঠিকানা" />
+
+                <item
+                    android:id="@+id/nav_email"
+                    android:title="ইমেইল" />
+                <item
+                    android:id="@+id/nav_call"
+                    android:title="ফোন" />
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="শেয়ার" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
